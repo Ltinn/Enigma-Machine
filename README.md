@@ -7,7 +7,6 @@ Then to encrypt or decrypt a message, call the Scramble() method with four param
 The method returns a string which is your encrypted message. The message will always be upper case, and only the 26 letters of the English alphabet will be encrypted. Everything else, including numbers, symbols, and spaces, will be left as is.
 To decrypt, send the encrypted message through the same enigma machine with the same rotor settings. The method will return the decrypted message.
 
-It should go without saying that this isnt going to work for anything you need legitimatly encrypted. As far as I can tell, it has the same flaws that the orignial German machines had, which made them easily breakable back then. DONT USE THIS FOR LEGITIMATE ENCRYPTION.
-I created it for fun, and that is the only thing you should use it for.
+It should go without saying that this isnt going to work for anything you need legitimatly encrypted. As far as I can tell, it has the same flaws that the orignial German machines had, which made them easily breakable back then. Obviously you shouldn't use it for anything that actually needs to be kept secure.
 
 I'm somewhat inexperienced, and haven't been working with C# very long, so if you have any feedback I would be more than welcome to hear it!
