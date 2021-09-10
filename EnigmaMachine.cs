@@ -22,6 +22,8 @@ namespace EnigmaMachine {
         static Random rand = new Random();
 
         //default constructor
+        public EnigmaMachine() { }
+
         public EnigmaMachine(int seed){
             rand = new Random(seed);
         }
