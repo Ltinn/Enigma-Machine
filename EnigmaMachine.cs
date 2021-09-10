@@ -22,6 +22,9 @@ namespace EnigmaMachine {
         static Random rand = new Random();
 
         //default constructor
+        public EnigmaMachine(int seed){
+            rand = new Random(seed);
+        }
 
         /// <summary>
         /// This method takes the input and scrambles it with the Engima Machine. 
